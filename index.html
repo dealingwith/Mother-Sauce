@@ -25,10 +25,19 @@
   cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
   proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-  <!-- jQuery -->
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <div id="fb-root"></div>
+  <script src="https://connect.facebook.net/en_US/all.js"></script>
 
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
+  <script type="text/javascript">
+    //<![CDATA[
+      window.jQuery || document.write("<script src='js/jquery-1.7.1.min.js'>\x3C/script>")
+    //]]>
+  </script>
+
+  <script type="text/javascript" src="/js/fb-connector.js"></script>
+  <script type="text/javascript" src="/js/model.js"></script>
   <script type="text/javascript" src="/js/script.js"></script>
-  
+
 </body>
 </html>
